@@ -1,2 +1,2 @@
-#StarCrusader // Datapack v1.0.0
+# StarCrusader // Datapack v1.0.0
 Datapack Sci-Fi de uso personal. El objetivo principal es crear un datapack que construya un mundo futurista, con control de naves, explotación, economía, armas custom, etc...
