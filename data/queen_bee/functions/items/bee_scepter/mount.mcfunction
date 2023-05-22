@@ -4,7 +4,6 @@ function queen_bee:items/bee_scepter/damage
 
 #===< Effect >===
 playsound minecraft:entity.ender_dragon.flap player @a ~ ~ ~ 1 1.5
-playsound minecraft:entity.bee.death player @a ~ ~ ~ 1 1.2
 function queen_bee:particles/bee_summon
 
 #===< Summon Rideable Bee >===

@@ -10,13 +10,13 @@ execute as @s[scores={bee_trigger=1..},tag=!queen_bee_rider] if entity @s[nbt={S
 execute as @s[scores={bee_trigger=1..,bee_got_honey=1..},tag=!queen_bee_rider] if entity @s[nbt={SelectedItem:{tag:{Damage:100}}}] store result score @s bee_got_honey run tag @s add bee_scepter_repair
 execute as @s[scores={bee_trigger=1..},nbt={Inventory:[{Slot:-106b,id:"minecraft:honey_bottle"}]}] unless entity @s[nbt={SelectedItem:{tag:{Damage:0}}}] run tag @s add bee_scepter_repair
 execute as @s[tag=bee_scepter_repair] run clear @s honey_bottle 1
-execute as @s[tag=bee_scepter_repair] run function suw4:items/bee_scepter/charge
+execute as @s[tag=bee_scepter_repair] run function queen_bee:items/bee_scepter/charge
 
 #===< Summon Bee >===
-execute as @s[scores={bee_trigger=1..},tag=!queen_bee_rider,tag=!bee_scepter_repair] unless entity @s[nbt={SelectedItem:{tag:{Damage:100}}}] run function suw4:items/bee_scepter/mount
+execute as @s[scores={bee_trigger=1..},tag=!queen_bee_rider,tag=!bee_scepter_repair] unless entity @s[nbt={SelectedItem:{tag:{Damage:100}}}] run function queen_bee:items/bee_scepter/mount
 
 #===< Attack >===
-execute as @s[scores={bee_hit=1..},tag=!queen_bee_rider,tag=!bee_scepter_repair] unless entity @s[nbt={SelectedItem:{tag:{Damage:100}}}] run function suw4:items/bee_scepter/attack
+execute as @s[scores={bee_hit=1..},tag=!queen_bee_rider,tag=!bee_scepter_repair] unless entity @s[nbt={SelectedItem:{tag:{Damage:100}}}] run function queen_bee:items/bee_scepter/attack
 
 #===< Reset >===
 tag @s remove bee_scepter_repair
