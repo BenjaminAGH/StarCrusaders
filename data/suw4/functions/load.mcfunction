@@ -1,0 +1,19 @@
+scoreboard objectives add bee_motion_x dummy
+scoreboard objectives add bee_motion_y dummy
+scoreboard objectives add bee_motion_z dummy
+scoreboard objectives add bee_speed dummy
+scoreboard objectives add bee_trigger minecraft.used:minecraft.warped_fungus_on_a_stick
+scoreboard objectives add bee_hit minecraft.custom:minecraft.target_hit
+scoreboard objectives add bee_floating dummy
+scoreboard objectives add bee_tick dummy
+scoreboard objectives add bee_id dummy
+scoreboard objectives add bee_rand dummy
+scoreboard objectives add bee_health dummy
+scoreboard objectives add bee_hurt dummy
+scoreboard objectives add bee_scepter_damage dummy
+scoreboard objectives add bee_got_honey dummy
+scoreboard objectives add bee_honey_effect dummy
+
+bossbar add queen_bee:queen_bee "Queen Bee"
+bossbar set queen_bee:queen_bee color yellow
+bossbar set queen_bee:queen_bee max 600
