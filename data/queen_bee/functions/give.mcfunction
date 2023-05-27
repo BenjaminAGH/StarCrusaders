@@ -1,2 +1,0 @@
-give @s minecraft:warped_fungus_on_a_stick{CustomModelData:230100,queen_bee:"bee_scepter",display:{Name:'{"text":"Bee Scepter","italic": false}'}}
-give @s armor_stand{CustomModelData:230100,queen_bee:"bee_larva",display:{Name:'{"text":"Bee Larva","italic": false}'},EntityTag:{DisabledSlots:2031616,Tags:["queen_bee_larva"],ArmorItems:[{},{},{},{id:"yellow_dye",Count:1b,tag:{CustomModelData:230103}}],Pose:{Head:[0f,0f,0f]},Silent:1b,Invisible:1b,NoAI:1b,ActiveEffects:[{Id:14,Duration:2000,ShowParticles:0b}]}}
