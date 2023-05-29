@@ -1,1 +1,1 @@
-give @s minecraft:warped_fungus_on_a_stick{CustomModelData:230100,suw4:"ship_scepter",display:{Name:'{"text":"Bee Scepter","italic": false}'}}
+give @s minecraft:warped_fungus_on_a_stick{CustomModelData:1,suw4:"ship_xwing",display:{Name:'{"text":"XWing - TESTv0.1","italic": false}'}}
