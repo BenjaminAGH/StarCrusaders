@@ -39,6 +39,7 @@
     "minecraft:wither_skull",
     "minecraft:experience_orb",
     "minecraft:marker",
-    "minecraft:experience_bottle"
+    "minecraft:experience_bottle",
+    "minecraft:villager"
   ]
 }

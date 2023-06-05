@@ -7,3 +7,4 @@ execute as @s[scores={ship_trigger=1..},tag=ship_rider] on vehicle if entity @s[
 
 #Summon ship 
 execute as @s[scores={ship_trigger=1..},tag=!ship_rider,tag=!ship_repair] unless entity @s[nbt={SelectedItem:{tag:{Damage:100}}}] run function suw4:items/ship/mount
+

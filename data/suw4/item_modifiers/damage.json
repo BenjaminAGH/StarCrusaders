@@ -1,0 +1,11 @@
+[
+  {
+    "function": "minecraft:set_damage",
+    "damage": {
+      "type": "minecraft:score",
+      "target": "this",
+      "score": "ship_damage",
+      "scale": 0.01
+    }
+  }
+]
